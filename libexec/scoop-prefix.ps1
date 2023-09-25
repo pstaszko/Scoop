@@ -2,7 +2,7 @@
 # Summary: Returns the path to the specified app
 param($app)
 
-if(!$app) { 
+if(!$app) {
     . "$psscriptroot\..\lib\help.ps1"
     my_usage
     exit 1
